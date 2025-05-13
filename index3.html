@@ -22,6 +22,31 @@
     </ul>
 </div>
     </nav>
+    <div id="pony"class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#pony" data-slide-to="0" class="active"></li>
+            <li data-target="#pony" data-slide-to="1"></li>
+            <li data-target="#pony" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="bunnyy.webp">
+            </div>
+            <div class="carousel-item">
+                <img src="cat!!.webp">
+            </div>
+            <div class="carousel-item">
+                <img src="doggy.jpg">
+            </div>
+        </div>
+        <a href="#pony" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#pony" class="carousel-control-next" data-slide="next"></a>
+            <span class="carousel-control-next-icon"></span>
+        </a>
+        
+    </div>
     <div class="container-fluid text-center text-uppercase" id="boot">
     <h1> Who am I? </h1>
     <img class="rounded-circle img-fluid"src="boots image.webp">
@@ -32,16 +57,29 @@
    <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
    </p>
-   <a href ="#" class="btn btn-outline-secondary"><span class="fa fa-search"></span>search</a>
+   <a href ="#" class="btn btn-outline-secondary" data-toggle="modal" data-target="#book"><span class="fa fa-search"></span>search</a>
     </div>
-    <div class="modal">
+    <div class="modal" id="book">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h1>Matilda</h1>
+                <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
             </div>
             <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class=col-sm-6>
+                            <img src="matilda.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>Matilda is a wonderful children's book by Roald Dahl. It was released in 1988. It's about a wonderous girl who got given a family so different that they makes her seem and feel like an outcast. She LOVES to read whilst her family is rotting and watching television shows. Her mum is a bingo addict and her dad is a scammer who sells broken cars to people for huge amounts of money. She's been taking care of herself since the ripe age of 2 because her family doesn't pay her any attention but then something wild happens. She asks to go to school but little did she know this school is like a prison. The only thing keeping it nice is the pure ray of sunshine, Miss Honey. In this book you can see how Miss Honey and Matilda bond over their love for knowledge whilst trying to fight against Miss Trunchbull's wicked ways!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer"> 
+                <button class="btn btn-warning"data-dismiss="modal">Okay</button>
             </div>
         </div>
      </div>
